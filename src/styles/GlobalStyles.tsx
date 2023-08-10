@@ -2,6 +2,7 @@ import { StyleSheet } from "react-native";
 import { myColors } from "./Colors";
 
 export const Styles = StyleSheet.create({
+    // Buttons CSS
     btnBlue: {
         width: 72,
         height: 72,
@@ -38,6 +39,7 @@ export const Styles = StyleSheet.create({
         alignItems: "center",
         margin: 8,
     },
+    // Text css in dark and light mode
     smallTextLight: {
         fontSize: 32,
         color: myColors.white,
@@ -46,4 +48,13 @@ export const Styles = StyleSheet.create({
         fontSize: 32,
         color: myColors.black,
     },
+    // Keyboard layout css
+    row: {
+        maxWidth: '100%',
+        flexDirection: 'row'
+    },
+    viewBottom: {
+        position: "absolute",
+        bottom: 50
+    }
 })
